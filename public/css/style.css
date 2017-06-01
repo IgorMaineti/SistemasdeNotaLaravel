@@ -1,0 +1,239 @@
+/* Classes Globais */
+.grid{
+	margin: 0px 30px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+.fa.fa-angle-down {
+    padding-left: 10px;
+}
+
+body{
+    font-family: 'Catamaran', sans-serif !important;
+}
+/* -- Classes Globais */
+
+/* Estilos do Header */
+header {
+    background-image: url('../img/header2.jpg');
+    margin: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+header h1{
+	text-align: center;
+	color:  red;
+	background-color: #888;
+	margin: 0;
+	padding: 10px 0px;
+}
+
+nav {
+    background-color: #3f3f3f;
+    color: #fff;
+    text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 5px 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+nav ul li {
+    border-right: solid 1px;
+}
+
+#menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.active{
+    background-color: #000;
+    margin-left: -3px;
+}
+
+.active a{
+    color: #fff;
+}
+
+.fa.fa-home, .fa.fa-book, .fa.fa-briefcase, .fa.fa-university {
+    padding-right: 10px;
+}
+
+/* -- Estilos do Header -- */
+
+/* Estilos do Dropdown */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    left: 61%;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.show {
+    display: block;
+}
+
+.drop:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* -- Estilo do dropdown --*/
+
+
+
+/* -- Estilos da Section -- */
+body{
+	margin: 0;
+}
+
+section {
+    padding: 30px 100px;
+}
+
+.centralizado{
+    text-align: center;
+}
+
+ul#integrantes{
+    display: inline-block;
+    text-align: center;
+}
+
+ul#materias{
+    display: inline-block;
+    text-align: center;
+}
+
+.cadastrese-home, .login-home {
+    width: 49%;
+    display: inline-block;
+    text-align: center;
+    height: 250px;
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.fa.fa-user-plus, .fa.fa-sign-in, .fa.fa-thumbs-o-up, .fa.fa-hand-o-up {
+    font-size: 90px;
+}
+
+.area-acesso {
+    margin: 30px 0px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.separador {
+    display: inline-block;
+    width: 1px;
+    height: 200px;
+    vertical-align: middle;
+    border-right: dashed 2px #999;
+}
+
+.subjects-grid {
+    width: 75%;
+    display: inline-block;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    display: table;
+}
+
+.table.table-bordered tr td {
+    width: 75%;
+}
+
+.descriptionBlock {
+    width: 20%;
+    display: inline-block;
+    margin-left: 50px;
+    vertical-align: top;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f1f2f7;
+    margin-bottom: 20px;
+    font-size: 15px;
+    top: 148px;
+    position: relative;
+}
+/* -- Estilos da Section -- */
+
+/* -- Estilos do Footer -- */
+footer{
+	background-color: #888
+}
+
+.logo-footer {
+    width: 38%;
+}
+
+.footer-top {
+    padding: 45px 0px 20px 0px;
+    height: 300px;
+    background-image: url('../img/footer2.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top: solid 2px #999;
+}
+
+.footer-bottom {
+    background-color: #3f3f3f;
+    color: #fff;
+    padding: 8px 0px;
+    text-transform: uppercase;
+    text-align: center;
+    min-height: 30px;
+    font-size: 12px;
+}
+
+span.direitos-autorais{
+    padding: 0px 10px;
+    line-height: 47px;
+    vertical-align: middle;
+}
+
+i.fa.fa-heart {
+    padding: 0px 5px;
+    font-size: 16px;
+    color: red;
+}
+/* -- Estilos do Footer -- */

@@ -1,0 +1,1 @@
+Para o projeto rodar, sera necessario a criação de uma DATABASE no MYSQL chamada Projeto2, caso não consiga, veja o arquivo .env para configurar o banco de dados.
